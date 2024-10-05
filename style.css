@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    flex-direction: column;
+    margin-top: 100px;
+}
+.inputs h1 {
+    font-size: 35px;
+    color: dodgerblue;
+    font-weight: normal;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #333;
+}
+input {
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    background-color: #eee;
+    font-size: 20px;
+    border-radius: 3px;
+}
+input:focus {
+    outline: none;
+}
